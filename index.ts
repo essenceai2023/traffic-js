@@ -8,8 +8,8 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById("map") as HTMLElement,
     {
-      zoom: 13,
-      center: { lat: 34.04924594193164, lng: -118.24104309082031 },
+      zoom: 13, // Adjust the zoom level if needed
+      center: { lat: 28.6139, lng: 77.2090 }, // Coordinates for New Delhi
     }
   );
 

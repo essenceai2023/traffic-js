@@ -9,7 +9,7 @@ function initMap(): void {
     document.getElementById("map") as HTMLElement,
     {
       zoom: 13, // Adjust the zoom level if needed
-      center: { lat: 28.6139, lng: 77.2090 }, // Coordinates for New Delhi
+      center: { lat: 6.5244, lng: 3.3792 }, // Coordinates for Lagos, Nigeria
     }
   );
 
